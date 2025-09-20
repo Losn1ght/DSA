@@ -27,7 +27,7 @@ Queue* initialize(){
 }
 
 bool isFull(Queue* q){
-	return q->list.count == MAX -1;
+	return q->list.count == MAX;
 }
 
 bool isEmpty(Queue* q){
@@ -151,4 +151,5 @@ int main() {
     free(q);
     return 0;
 }
+
 
